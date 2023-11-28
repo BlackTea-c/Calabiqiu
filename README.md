@@ -1,0 +1,2 @@
+# Calabiqiu
+基于yolov5n的卡拉比丘自瞄辅助,FPS,自瞄,AI,数据集
