@@ -1,0 +1,12 @@
+
+path: E:/Project_YOLO/yolov5-master/data/mydata_robot # dataset root dir
+train: images
+val: images
+
+# Classes
+nc: 1
+
+names:
+  0: train_robot
+
+
