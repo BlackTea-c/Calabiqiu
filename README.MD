@@ -4,19 +4,7 @@
 
 
 
-#
-
-1. 人体关键点检测算法 rtmdet（small） + rtm3dpose（large） 的效果较好，fp16 trt模型在板端的延迟共约40ms
-
-2. 模型选用的灵活度较高，Detector可以替换为其他检测器
-
-3.Pose detection 总体pipeline：先跑Detection，得到检测框，再从原始图像中裁剪目标（类别为“人”的目标），再跑关键点检测
-
-# 狠狠截图了
-## 4/1 开始正式使用一下这个Trackeverything(新建文件夹bushi)
-## 5/12 新增了注意力机制，
-## 卡尔曼滤波ing
-## 最新的SOTA rtmdet检测
+# 重构 重点做tracking。
 
 # 数据方面
 就是通过翻转 裁剪 镜像来扩容；随机缩放裁剪颜色抖动添加噪声来数据增强
